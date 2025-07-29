@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>과일리스트</h1>
+  <ol>
+    <li>사과</li>
+    <li>오렌지</li>
+    <li>포도</li>
+    <li>복숭아</li>
+    <li>자두</li>
+  </ol>
+</body>
+<script>
+  const result = document.querySelectorAll("ol li");
+  console.log(result);
+
+  // foreach문 사용가능
+  result.forEach((item)=> console.log(item.innerHTML)); 
+  result.forEach(function(item){console.log(item.innerHTML);});
+</script>
+</html>

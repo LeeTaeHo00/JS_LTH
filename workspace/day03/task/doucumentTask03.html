@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <ul>
+      <li>항목1</li>
+      <li>항목2</li>
+      <li>항목3</li>
+      <li>항목4</li>
+      <li>항목5</li>
+    </ul>
+  </div>
+</body>
+<script>
+  // getElementsByTagName을 사용하여 모든 li요소 선택하기
+  // 선택된 모든 li요소에 list-item 클래스 추가하기
+  // 마지막 li요소에 배경ㅇ색을 하늘색으로 변경하기
+
+  const byName = document.getElementsByTagName('li');
+  console.log(byName);
+  for(let i = 0; i < byName.length; i++){
+    byName[i].classList.add("list-item");
+  }
+  byName[byName.length - 1].style.backgroundColor = 'lightblue';
+
+
+</script>
+</html>

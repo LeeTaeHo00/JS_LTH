@@ -1,0 +1,41 @@
+UPPER() 소문자를 대문자로 ***
+SUBSTR(문자열, 추출시작, 추출끝) 문자열 일부 추출
+LENGTH
+TRIM
+CONCAT
+LPAD
+RPAD
+REPLACE
+
+ROUND
+TRUNC
+MOD
+CEIL
+FLOOR
+
+SYSDATE
+MONTHS_BETWEEN
+ADD_MONT
+NEXT_DAY
+
+EXTRACT ***
+
+피연산자의 타입
+연산자의 결과 타입
+
+현재날짜 sysdate
+날짜 + 개월 add_months()
+날짜차이(개월) month_between()
+다음 요일	next_day()
+이번달 마지말날 last_day()
+
+NVL() 	CALEASE()
+2개	2개이상
+타입동일	자동타입추론
+오라클저용	SQL표준
+
+앞자리가 짝수이면 5일 때 반올림이 안됨
+2.5 -> 2
+3.5 -> 4
+
+COALEESCE ****** 첫 널 아닌값
