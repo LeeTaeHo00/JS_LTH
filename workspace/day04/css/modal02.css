@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: antiquewhite;
+  height: 20vh;
+  /* vh는 뷰포트 기준으로 크기가 결정된다 */
+  /* 20vh는 사용자 화면의 20%를 의미 */
+  display: flex;
+  /* flex : 자식 요소를 정렬하기 위한 플렉스 컨테이너 설정 */
+  flex-direction: column;
+  /* column 자식 요소들을 위->아래로 배치 */
+  justify-content: flex-end;
+  /* flex end : 자식 요소들을 끝에 위치하게 함 */
+}
+
+main{
+  background-color: blueviolet;
+  height: 60vh;
+}
+
+footer{
+  background-color: aqua;
+  height: 20vh;
+}
+
+nav{
+  background-color: cadetblue;
+  height: 25%;
+}
+
+li{
+  list-style-type: none;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav li{
+  /* border:1px solid black; */
+  width: 80px;
+  padding-left: 20px;
+}
+
+.nav--login{
+  cursor: pointer;
+}
+
+/*  */
+.modal-box{
+  background-color: beige;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.login-box{
+  background-color: white;
+  width: 300px;
+  padding: 300px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn-wrap{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.x-box{
+  float:right;
+  font-size: 25px;
+  font-weight: bold;
+  top: 10px;
+  right: px;
+  cursor: pointer;
+}

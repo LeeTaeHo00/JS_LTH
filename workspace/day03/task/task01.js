@@ -69,8 +69,8 @@ console.log(animalsMul.indexOf('cat'));
 //5) 배열의 첫번째와 마지막요소를 제거한 뒤 남은 배열 출력하기
 const colors = ['red', 'blue', 'green', 'yellow'];
 
-colors.pop(); // 첫번째
-colors.shift(); // 마지막
+colors.pop(); // 마지막
+colors.shift(); // 첫번째
 
 console.log(colors);
 
